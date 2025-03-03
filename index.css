@@ -1,6 +1,6 @@
 /* Arka plan resmini ekle */
 body {
-    background-image: url('file:///C:/Users/Lab2_Ogr13/Desktop/Benim%20Sayfam%20(2)/arkaplan.jpg'), url('file:///C:/Users/Lab2_Ogr13/Desktop/ED3460/Benim%20Sayfam%20(2)/arkaplan.jpg');
+    background-image: url('arkaplan.jpg');
 
  /* Arka plan resmi */
     background-size: cover; /* Resmi ekrana sığdır */
