@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XsirMC</title>
+    <link rel="stylesheet" href="index.css"> <!-- CSS dosyasına bağlantı -->
+</head>
+<body>
 
+<!-- Profil Bölümü -->
+<div class="profile">
+    <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\pp.gif" alt="Profil Fotoğrafı"> <!-- Profil Fotoğrafı -->
+    <div class="profile-text">@xsir.mc</div>
+    <!-- Takip Linki -->
+    <a href="https://www.tiktok.com/@xsir.mc?_t=ZS-8u9Ze7wMPTO&_r=1" class="profile-follow">Takip Et</a>
+</div>
+
+<!-- Linkler Bölümü -->
+<div class="container">
+    <!-- Link 1 (Minecraft icon) -->
+    <a href="https://www.mediafire.com/file/jckfr9ki5z40kn9/Actions_And_Stuff_1.1_.mcpack/file" class="link">
+        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\deneme.jpg" alt="Icon 1"> <!-- Minecraft icon -->
+        <span class="link-text">Actions And Stuff 1.1</span>
+    </a>
+    <!-- Link 2 -->
+    <a href="https://www.mediafire.com/file/vqvxx6lik41g3xz/Actions_And_Stuff.mcpack/file" class="link">
+        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\actionsandstuff_Thumbnail_0.jpg" alt="Icon 2"> <!-- Fotoğraf 2 -->
+        <span class="link-text">Actions And Stuff</span>
+    </a>
+    <!-- Link 3 -->
+    <a href="https://www.mediafire.com/file/bidn38t2yvfd15s/PaperDollG.mcpack/file" class="link">
+        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\dullpaper.png" alt="Icon 3"> <!-- Fotoğraf 3 -->
+        <span class="link-text">DullPaper</span>
+    </a>
+    <!-- Link 4 -->
+    <a href="https://www.mediafire.com/file/07drqmp5r87q458/ultramarine-overhaul.mcpack.zip/file" class="link">
+        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\ultramarine.png" alt="Icon 4"> <!-- Fotoğraf 4 -->
+        <span class="link-text">Ultramarine V4.3
+        </span>
+    </a>
+    <!-- Link 5 -->
+    <a href="https://www.mediafire.com/file/skfky449pwt5j0a/UltramarineOverhaulV5.mcpack.zip/file" class="link">
+        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\ultramarine 2.png" alt="Icon 5"> <!-- Fotoğraf 5 -->
+        <span class="link-text">ultramarine V5</span>
+    </a>
+
+    <!-- Shaderlar Linklerini Gösterme Butonu -->
+    <div class="show-links-btn" onclick="toggleLinks()">Shaderlar 👇</div>
+
+    <!-- Gizlenmiş Linkler (Link 6 ve 7) -->
+    <div class="hidden-links" id="shader-links">
+        <!-- Link 6 -->
+        <a href="https://www.mediafire.com/file/fbqo36vuycip3b9/Newb-X-LMI-Shader-MCPE-1.21.mcpack.zip/file" class="link">
+            <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\newbxlm.png" alt="Icon 6"> <!-- Fotoğraf 6 -->
+            <span class="link-text">X LMI Shader MCPE</span>
+        </a>
+        <!-- Link 7 -->
+        <a href="https://www.mediafire.com/file/sgdx06c4djwna87/Solar-Shader-MCPE-1.21.44.mcpack.zip/file" class="link">
+            <img src= "C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\solarshader.png"alt="Icon 7"> <!-- Fotoğraf 7 -->
+            <span class="link-text">Solar Shader</span>
+        </a>
+    </div>
+</div>
+
+<script>
+    // Linkleri gösterip gizlemek için fonksiyon
+    function toggleLinks() {
+        var links = document.getElementById("shader-links");
+        if (links.style.display === "none" || links.style.display === "") {
+            links.style.display = "block";
+        } else {
+            links.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
