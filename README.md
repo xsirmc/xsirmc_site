@@ -10,7 +10,7 @@
 
 <!-- Profil Bölümü -->
 <div class="profile">
-    <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\pp.gif" alt="Profil Fotoğrafı"> <!-- Profil Fotoğrafı -->
+    <img src="pp.gif" alt="Profil Fotoğrafı"> <!-- Profil Fotoğrafı -->
     <div class="profile-text">@xsir.mc</div>
     <!-- Takip Linki -->
     <a href="https://www.tiktok.com/@xsir.mc?_t=ZS-8u9Ze7wMPTO&_r=1" class="profile-follow">Takip Et</a>
