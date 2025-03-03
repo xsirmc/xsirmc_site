@@ -20,7 +20,8 @@
 <div class="container">
     <!-- Link 1 (Minecraft icon) -->
     <a href="https://www.mediafire.com/file/jckfr9ki5z40kn9/Actions_And_Stuff_1.1_.mcpack/file" class="link">
-        <img src="C:\Users\Lab2_Ogr13\Desktop\ED3460\Benim Sayfam (2)\deneme.jpg" alt="Icon 1"> <!-- Minecraft icon -->
+        <img src="images/pp.gif" alt="Profil Fotoğrafı">
+ <!-- Minecraft icon -->
         <span class="link-text">Actions And Stuff 1.1</span>
     </a>
     <!-- Link 2 -->
